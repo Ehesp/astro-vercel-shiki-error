@@ -1,4 +1,5 @@
 ---
+import { Code } from 'astro/components';
 ---
 
 <html lang="en">
@@ -10,6 +11,10 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Code
+			theme="css-variables"
+			lang="js"
+			code="console.log('Hello, world!');"
+		/>
 	</body>
 </html>
